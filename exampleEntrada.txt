@@ -1,0 +1,73 @@
+Topico: 
+
+{
+  "titulo": "Introducción a Spring Boot",
+  "status": "Activo",
+  "autor": "autor@example.com",
+  "curso": "Desarrollo Backend"
+}
+
+Curso:
+
+{
+  "nombre": "Desarrollo Backend",
+  "categoria": "Tecnología"
+}
+
+{
+  "nombre": "Inteligencia Artificial",
+  "categoria": "Ciencia de Datos"
+}
+
+{
+  "nombre": "Gestión de Proyectos",
+  "categoria": "Administración"
+}
+
+Usuario: 
+
+{
+  "nombre": "Juan Pérez",
+  "correo": "juan.perez@example.com",
+  "password": "password123",
+  "perfil": [
+    {
+      "categoria": "Administrador"
+    },
+    {
+      "categoria": "Instructor"
+    }
+  ]
+}
+
+{
+  "nombre": "Paola Romero",
+  "correo": "paola.romero@example.com",
+  "password": "paola1334",
+  "perfil": [
+    {
+      "categoria": "Analista"
+    },
+    {
+      "categoria": "AI"
+    }
+  ]
+}
+
+Perfil: 
+
+{
+        "per_id": 1,
+        "per_categoria": "Analista"
+
+}
+
+{
+        "per_id": 2,
+        "per_categoria": "AI"
+}
+{
+        "per_id": 3,
+        "per_categoria": "Desarrollador Back-end"
+}
+
