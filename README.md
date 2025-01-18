@@ -35,8 +35,7 @@ Este proyecto es una API REST para gestionar un foro de discusión. Proporciona 
 
 1. 📂 Clona este repositorio:
    ```bash
-   git clone https://github.com/usuario/proyecto-foro.git
-   cd proyecto-foro
+   git clone https://github.com/Andres-cmk/foroChallenge.git
 --
 
 ## 🛠️ Tecnolgias Usadas
