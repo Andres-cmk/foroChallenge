@@ -57,7 +57,7 @@ Este proyecto es una API REST para gestionar un foro de discusión. Proporciona 
 
 ## 👀 Entradas
 ```
-Topico: 
+--> Topico: 
 
 {
   "titulo": "Introducción a Spring Boot",
@@ -66,7 +66,7 @@ Topico:
   "curso": "Desarrollo Backend"
 }
 
-Curso:
+--> Curso:
 
 {
   "nombre": "Desarrollo Backend",
@@ -83,7 +83,7 @@ Curso:
   "categoria": "Administración"
 }
 
-Usuario: 
+--> Usuario: 
 
 {
   "nombre": "Juan Pérez",
@@ -113,7 +113,7 @@ Usuario:
   ]
 }
 
-Perfil: 
+--> Perfil: 
 
 {
         "per_id": 1,
