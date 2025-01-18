@@ -53,6 +53,9 @@ Este proyecto es una API REST para gestionar un foro de discusión. Proporciona 
   curso de la entdiad **Curso**. Se implemento para que si no se encuentra registrado, se registre automaticamente sin que
   el cliente lo haga manuelamente.
 
+  Cabe aclarar que no va funcionar en todos los escenearios, lo mejor es que se agreguen datos a las relaciones, es decir, 
+  si voy agregar un topico, que al menos haya un usuario registrado en la base, al igual que en curso y perfil.
+
 --
 
 ## 👀 Entradas
