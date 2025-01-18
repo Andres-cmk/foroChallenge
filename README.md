@@ -37,3 +37,12 @@ Este proyecto es una API REST para gestionar un foro de discusión. Proporciona 
    ```bash
    git clone https://github.com/usuario/proyecto-foro.git
    cd proyecto-foro
+   ## 🛠️ Tecnolgias Usadas
+ - **Framework**: Spring Boot
+- **Base de datos**: MySQL
+- **Seguridad**: Spring Security + JWT
+-**Validacion**:Startet Validation
+
+
+  ##👨‍💻 Aclaraciones
+  El proyecto utiliza 
