@@ -37,14 +37,95 @@ Este proyecto es una API REST para gestionar un foro de discusión. Proporciona 
    ```bash
    git clone https://github.com/usuario/proyecto-foro.git
    cd proyecto-foro
-   ## 🛠️ Tecnolgias Usadas
+--
 
-##🛠️ Tecnologias Usadas
+## 🛠️ Tecnolgias Usadas
 - **Framework**: Spring Boot
 - **Base de datos**: MySQL
 - **Seguridad**: Spring Security + JWT
--**Validacion**:Startet Validation
+- **Validacion**:Startet Validation
 
+--
 
-  ##👨‍💻 Aclaraciones
-  El proyecto utiliza 
+## 👨‍💻 Aclaraciones
+  Para cuando se requiere crear topicos se debe propocionar algunos datos de las relaciones como autor **Usuario** o 
+  curso de la entdiad **Curso**. Se implemento para que si no se encuentra registrado, se registre automaticamente sin que
+  el cliente lo haga manuelamente.
+
+--
+
+## 👀 Entradas
+```
+Topico: 
+
+{
+  "titulo": "Introducción a Spring Boot",
+  "status": "Activo",
+  "autor": "autor@example.com",
+  "curso": "Desarrollo Backend"
+}
+
+Curso:
+
+{
+  "nombre": "Desarrollo Backend",
+  "categoria": "Tecnología"
+}
+
+{
+  "nombre": "Inteligencia Artificial",
+  "categoria": "Ciencia de Datos"
+}
+
+{
+  "nombre": "Gestión de Proyectos",
+  "categoria": "Administración"
+}
+
+Usuario: 
+
+{
+  "nombre": "Juan Pérez",
+  "correo": "juan.perez@example.com",
+  "password": "password123",
+  "perfil": [
+    {
+      "categoria": "Administrador"
+    },
+    {
+      "categoria": "Instructor"
+    }
+  ]
+}
+
+{
+  "nombre": "Paola Romero",
+  "correo": "paola.romero@example.com",
+  "password": "paola1334",
+  "perfil": [
+    {
+      "categoria": "Analista"
+    },
+    {
+      "categoria": "AI"
+    }
+  ]
+}
+
+Perfil: 
+
+{
+        "per_id": 1,
+        "per_categoria": "Analista"
+
+}
+
+{
+        "per_id": 2,
+        "per_categoria": "AI"
+}
+{
+        "per_id": 3,
+        "per_categoria": "Desarrollador Back-end"
+}
+---
