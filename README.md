@@ -7,7 +7,7 @@
 
 ## 📝 Descripción
 
-Este proyecto es una API REST para gestionar un foro de discusión. Proporciona funcionalidad para gestionar usuarios, topicos, respuesta y autenticación basada en JWT. Está desarrollado en Java utilizando el framework Spring Boot y una base de datos PostgreSQL.
+Este proyecto es una API REST para gestionar un foro de discusión. Proporciona funcionalidad para gestionar usuarios, topicos, respuesta y autenticación basada en JWT. Está desarrollado en Java utilizando el framework Spring Boot y una base de datos MySQL
 
 ---
 
