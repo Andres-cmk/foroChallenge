@@ -18,6 +18,8 @@ Este proyecto es una API REST para gestionar un foro de discusión. Proporciona 
 - 📂 **Gestión de topicos**: Crear, listar, actualizar y eliminar temas.
 - 💬 **Gestión de respuesas**: Añadir comentarios a los temas.
 - 🔒 **Seguridad**: Validación de tokens y control de acceso por roles.
+- 📰 **Perfiles**: Crear Perfiles.
+- 👨‍🎓 **Cursos**: Creacion de cursos asi como listarlos y demas.
 
 ---
 
