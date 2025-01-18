@@ -18,9 +18,9 @@ Este proyecto es una API REST para gestionar un foro de discusión. Proporciona 
 - ✅ **Gestión de usuarios**: Registro y autenticación de usuarios
 - 🔐 **Autenticación**: Sistema basado en JWT para proteger las rutas.
 - 📂 **Gestión de topicos**: Crear, listar, actualizar y eliminar temas.
-- 💬 **Gestión de respuesas**: Añadir comentarios a los temas.
-- 🔒 **Seguridad**: Validación de tokens y control de acceso por roles.
-- 📰 **Perfiles**: Crear Perfiles.
+- 💬 **Gestión de respuestas**: Añadir respuestas a un topico en especifico.
+- 🔒 **Seguridad**: Validación de tokens y control de acceso a usuarios.
+- 📰 **Perfiles**: Crear Perfiles, listar, actualizar y eliminar perfiles.
 - 👨‍🎓 **Cursos**: Creacion de cursos asi como listarlos y demas.
 
 ---
