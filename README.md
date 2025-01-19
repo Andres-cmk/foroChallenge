@@ -65,7 +65,7 @@ Este proyecto es una API REST para gestionar un foro de discusión. Proporciona 
 {
   "titulo": "Introducción a Spring Boot",
   "status": "Activo",
-  "autor": "autor@example.com",
+  "autor": "juan.perez@example.com",
   "curso": "Desarrollo Backend"
 }
 
