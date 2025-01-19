@@ -30,6 +30,7 @@ Este proyecto es una API REST para gestionar un foro de discusión. Proporciona 
 - ☕ **Java 17** o superior
 - 🛠️ **Maven 3.8** o superior
 - 🐬 **MySQL**
+- **Spring Boot 3**
 
 ---
 
